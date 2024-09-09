@@ -1,6 +1,8 @@
 <script>
 
-import AppHeader from './components/AppHeader.vue';
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
+
 
 
 export default {
@@ -10,7 +12,8 @@ export default {
     }
   },
   components: {
-    AppHeader
+    AppTitle,
+    AppHero
   },
   methods: {
     incrementCount() {
@@ -22,10 +25,11 @@ export default {
 
 <template>
   <div>
-    <AppHeader />
+    <AppTitle />
     <button @click="incrementCount()">
       {{ count }}
     </button>
+    <AppHero />
   </div>
 </template>
 

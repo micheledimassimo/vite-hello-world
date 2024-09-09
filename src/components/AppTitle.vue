@@ -2,7 +2,7 @@
 export default {
   data() {
     return { 
-      message: 'Template Vite + Vue'
+      message: 'Vite Hello World'
      }
   }
 }
@@ -24,5 +24,6 @@ header {
 
 h1 {
   color: lightcoral;
+  padding: 20px;
 }
 </style>
